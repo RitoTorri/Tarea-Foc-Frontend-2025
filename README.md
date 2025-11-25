@@ -1,4 +1,3 @@
-
 # 🚀 Tarea FOC - Frontend 2025
 
 ¡Bienvenido al proyecto frontend desarrollado para la asignatura de Fundamentos de Computación!
@@ -19,6 +18,10 @@
 - **Node.js** (versión 16 o superior)
 - **NPM** (viene incluido con Node.js)
 - **Conexión a internet** (para instalar dependencias)
+
+## 🔗 **Backend Requerido**
+Necesitas tener ejecutándose localmente el:
+[**Backend de la API**](https://github.com/RitoTorri/Tarea-Foc-Backend-2025)
 
 ---
 
@@ -43,7 +46,15 @@ Crea un archivo `.env` en la raíz del proyecto con:
 VITE_API_URL=http://localhost:3785/api/v1
 ```
 
-> **⚠️ IMPORTANTE:** Necesitas el [Backend de la API](https://github.com/RitoTorri/Tarea-Foc-Backend-2025) ejecutándose localmente.
+#### 📍 **Notas Clave:**
+- **`3785`** debe ser el mismo puerto configurado en tu backend
+- Verifica que el backend esté activo antes de ejecutar el frontend
+- La URL debe coincidir exactamente con la de tu servidor backend
+
+#### 🚨 **Si hay error de conexión:**
+1. Revisa que el backend esté ejecutándose
+2. Confirma que el puerto coincida en ambos proyectos
+3. Verifica que no haya conflictos de puertos
 
 ### 4. **Ejecutar la Aplicación**
 ```bash
@@ -57,6 +68,7 @@ npm run dev
 
 Presiona `Ctrl + Click` en la URL o ábrela manualmente en tu navegador.
 
+---
 
 ## 🚀 **Funcionamiento del Sistema**
 
@@ -77,5 +89,5 @@ Este proyecto funciona como un cliente frontend especializado que consume una AP
 
 #### 📋 **Presentación de Datos**
 - Tablas dinámicas que muestran la información de forma estructurada
-- Formato consistente across todos los módulos
+- Formato consistente en todos los módulos
 - Datos organizados con columnas claras y legibles
