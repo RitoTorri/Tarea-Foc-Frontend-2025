@@ -22,16 +22,6 @@
 
 ---
 
-## 🔗 **Dependencias Principales**
-
-| Paquete | Versión | Propósito |
-|---------|---------|-----------|
-| `vue` | ^3.3.0 | Framework principal |
-| `axios` | ^1.6.0 | Cliente HTTP para API |
-| `vue-router` | ^4.2.0 | Enrutamiento de la aplicación |
-
----
-
 ## ⚡ **Instalación Rápida**
 
 ### 1. **Clonar el Repositorio**
