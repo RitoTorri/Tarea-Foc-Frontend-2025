@@ -47,7 +47,7 @@ VITE_API_URL=http://localhost:PORT_API/api/v1
 ```
 
 #### 📍 **Notas Clave:**
-- **PORT_API**: Puerto del backend de la API, es decir el puerto en el que se ejecuta el servidor de la API
+- **`PORT_API`**: Puerto del backend de la API, es decir el puerto en el que se ejecuta el servidor de la API
 - Verifica que el backend esté activo antes de ejecutar el frontend
 - La URL debe coincidir exactamente con la de tu servidor backend
 
