@@ -40,14 +40,14 @@ npm install
 
 ### 3. **Configurar Variables de Entorno**
 
-Crea un archivo `.env` en la raíz del proyecto con:
+Cambia el archivo `.env.example` en la raíz del proyecto a `.env` y modifica los valores de la siguiente manera:
 
 ```env
-VITE_API_URL=http://localhost:3785/api/v1
+VITE_API_URL=http://localhost:PORT_API/api/v1
 ```
 
 #### 📍 **Notas Clave:**
-- **`3785`** debe ser el mismo puerto configurado en tu backend
+- **PORT_API**: Puerto del backend de la API, es decir el puerto en el que se ejecuta el servidor de la API
 - Verifica que el backend esté activo antes de ejecutar el frontend
 - La URL debe coincidir exactamente con la de tu servidor backend
 
